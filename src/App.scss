@@ -2,9 +2,22 @@
 @import "styles/variables";
 
 * {
+  @include null;
+
   box-sizing: border-box;
 }
 
 .App {
-  text-align: center;
+  @include Montserrat;
+
+  font-size: $fs-s;
+  font-weight: $fw-nm;
+  //color: #ffffff;
+}
+
+h2 {
+  @include PlayfairDisplay;
+
+  font-size: $fs-xl;
+  font-weight: $fw-bd;
 }

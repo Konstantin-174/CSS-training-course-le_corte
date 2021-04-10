@@ -1,7 +1,32 @@
-// === Mixins ===
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+// === Mixins ===
+@mixin Montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@mixin PlayfairDisplay {
+  font-family: 'Playfair Display', serif;
+}
+
+@mixin null {
+  padding: 0;
+  margin: 0;
+}
 // === / Mixins ===
 
 // === Variables ===
+$base: 4px;
+
+$fs-s: $base * 3.5; //14
+$fs-m: $base * 4;   //16
+$fs-l: $base * 4.5; //18
+$fs-xl: $base * 9;  //36
+
+$fw-nm: 400;
+$fw-md: 500;
+$fw-sbd: 600;
+$fw-bd: 700;
 
 // === / Variables ===
