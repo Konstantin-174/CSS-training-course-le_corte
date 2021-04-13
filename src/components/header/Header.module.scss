@@ -1,1 +1,46 @@
 @import "src/styles/variables";
+
+.headerWrapper {
+  //background: url("./img/bgc.png") no-repeat 50% 50%;
+  background-size: cover;
+  background: linear-gradient(180deg, #282828 0%, rgba(40, 40, 40, 0) 100%), url("./img/bgc.png"), no-repeat, 50% 50%, #ededed;
+
+  .sectionInner {
+    width: 100%;
+    height: $base * 225;
+  }
+
+  .headerNav {
+    display: flex;
+    flex-direction: column;
+
+    .headerContacts {
+      display: flex;
+      justify-content: space-between;
+
+      .headerContactsItem {
+
+      }
+    }
+
+    .headerLinks {
+      display: flex;
+      justify-content: space-between;
+
+      .headerLinksItem {
+
+      }
+    }
+
+  }
+
+  .headerBtns {
+
+    .btnItem {
+
+    }
+  }
+}
+
+
+
