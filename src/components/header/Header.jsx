@@ -1,11 +1,10 @@
 import React from 'react';
-import common from '../../styles/Common.module.scss';
 import local from './Header.module.scss';
 
 const Header = () => {
     return (
-        <header className={`${common.sectionOuter} + ${local.headerWrapper}`}>
-           <div className={`${common.sectionInner} + ${local.sectionInner}`}>
+        <header className={local.headerWrapper}>
+           <div className={local.sectionInner}>
                <div className={local.headerNav}>
                    <div className={local.headerContacts}>
                        <div className={local.headerContactsItem}>
