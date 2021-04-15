@@ -1,1 +1,53 @@
 @import "src/styles/variables";
+
+.collectionWrapper {
+  background: #e6e3c4;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #000000;
+}
+
+.sectionInner {
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+
+  .content {
+
+    .contentTitle {
+
+    }
+
+    h2 {
+
+    }
+
+    hr {
+
+    }
+
+    .contentText {
+
+    }
+
+    .table {
+
+      .tableItem {
+
+        .tableItemDate {}
+        .tableItemContent {
+
+          .itemTitle {}
+
+          .itemContent {}
+        }
+      }
+    }
+
+    button {
+
+    }
+  }
+
+  .galary {}
+}
