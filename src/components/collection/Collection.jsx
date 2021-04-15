@@ -13,7 +13,7 @@ const Collection = () => {
                         Новинки коллекций
                     </div>
                     <h2>
-                        Март 1980 Урожай Марселя
+                        Март 1980<br/> Урожай Марселя
                     </h2>
                     <hr/>
                     <div className={local.contentText}>
