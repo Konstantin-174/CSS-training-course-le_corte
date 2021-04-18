@@ -65,7 +65,7 @@ const Collection = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet
                         adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.
                     </div>
-                    <button>
+                    <button className={local.collectionButton}>
                         узнать подробнее
                     </button>
                 </div>
