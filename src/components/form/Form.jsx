@@ -1,10 +1,20 @@
 import React from 'react';
 import local from './Form.module.scss'
+import leftImg from './img/left.png'
+import rightImg from './img/right.png'
 
 const Form = () => {
     return (
         <section className={local.formWrapper}>
             <div className={local.sectionInner}>
+                <div className={local.images}>
+                    <div className={local.imgLeft}>
+                        <img src={leftImg} alt="ImageLeft"/>
+                    </div>
+                    <div className={local.imgRight}>
+                        <img src={rightImg} alt="ImageRight"/>
+                    </div>
+                </div>
                 <h2>Запись на дегустацию</h2>
                 <hr/>
                 <div className={local.formContent}>

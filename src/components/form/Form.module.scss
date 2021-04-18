@@ -4,6 +4,7 @@
   background: #282828;
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
 }
 
 .sectionInner {
@@ -13,6 +14,13 @@
   flex-direction: column;
   align-items: center;
   border: 3px solid #C4C4C4;
+
+  .images {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+  }
 
   h2 {
     text-align: center;
