@@ -1,8 +1,8 @@
 import React from 'react';
 import local from './Footer.module.scss'
-import logo1 from './img/Vector.svg'
-import logo2 from './img/Vector1.svg'
-import logo3 from './img/Vector2.svg'
+import LogoOne from './img/LogoOne';
+import LogoTwo from './img/LogoTwo';
+import LogoThree from './img/LogoThree';
 
 const Footer = () => {
     return (
@@ -37,18 +37,18 @@ const Footer = () => {
                     <div className={local.navDownItem}>
                         <div className={local.logo}>
                             <div className={local.logoItem}>
-                                <a href="#">
-                                    <img src={logo1} alt="Logo"/>
+                                <a href="#" className={local.item}>
+                                    <LogoOne/>
                                 </a>
                             </div>
                             <div className={local.logoItem}>
-                                <a href="#">
-                                    <img src={logo2} alt="Logo"/>
+                                <a href="#"  className={local.item}>
+                                    <LogoTwo/>
                                 </a>
                             </div>
                             <div className={local.logoItem}>
-                                <a href="#">
-                                    <img src={logo3} alt="Logo"/>
+                                <a href="#"  className={local.item}>
+                                    <LogoThree/>
                                 </a>
                             </div>
 
