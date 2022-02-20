@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/css-training-course-le_corte/static/css/main.cee5cb5d.css",
+    "main.js": "/css-training-course-le_corte/static/js/main.78af19c9.js",
+    "static/js/787.6d21cdff.chunk.js": "/css-training-course-le_corte/static/js/787.6d21cdff.chunk.js",
+    "static/media/bgc.png": "/css-training-course-le_corte/static/media/bgc.063c2a24a5287f34c651.png",
+    "static/media/Rectangle 11.png": "/css-training-course-le_corte/static/media/Rectangle 11.c3d2ab5923e7c608363f.png",
+    "static/media/Rectangle 13.png": "/css-training-course-le_corte/static/media/Rectangle 13.0e80937905cfa7b0d3a1.png",
+    "static/media/Rectangle 12.png": "/css-training-course-le_corte/static/media/Rectangle 12.4b45c7bde1b8bab1ad19.png",
+    "static/media/right.png": "/css-training-course-le_corte/static/media/right.5aad87a9f3953c0c4722.png",
+    "static/media/left.png": "/css-training-course-le_corte/static/media/left.ed7fbc5ddb330dfefb66.png",
+    "static/media/image.png": "/css-training-course-le_corte/static/media/image.6b0c7ebdeb34a6383ac9.png",
+    "index.html": "/css-training-course-le_corte/index.html",
+    "main.cee5cb5d.css.map": "/css-training-course-le_corte/static/css/main.cee5cb5d.css.map",
+    "main.78af19c9.js.map": "/css-training-course-le_corte/static/js/main.78af19c9.js.map",
+    "787.6d21cdff.chunk.js.map": "/css-training-course-le_corte/static/js/787.6d21cdff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cee5cb5d.css",
+    "static/js/main.78af19c9.js"
+  ]
+}
